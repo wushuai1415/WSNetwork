@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'WSNetwork_Example' do
+  pod 'WSNetwork', :path => '../'
+
+  target 'WSNetwork_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'FBSnapshotTestCase'
+    pod 'Expecta+Snapshots'
+  end
+end
