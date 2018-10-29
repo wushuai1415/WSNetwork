@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5400090C2182BAC700BD75A3 /* WSDefaultService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5400090B2182BAC700BD75A3 /* WSDefaultService.m */; };
+		5400090F2182BC4800BD75A3 /* WSTestDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5400090E2182BC4800BD75A3 /* WSTestDataManager.m */; };
 		587BF2D11A8E7AD20515503F /* Pods_WSNetwork_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7B85A169A828A99F3717A6 /* Pods_WSNetwork_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -40,7 +42,11 @@
 		0C5297AC5FC1AE563B641DC4 /* Pods-WSNetwork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSNetwork_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WSNetwork_Example/Pods-WSNetwork_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0C7B85A169A828A99F3717A6 /* Pods_WSNetwork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WSNetwork_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1340DCC097C412D6946FAC2C /* Pods-WSNetwork_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSNetwork_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WSNetwork_Example/Pods-WSNetwork_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		275E58F3B152CB52EADE838A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		275E58F3B152CB52EADE838A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5400090A2182BAC700BD75A3 /* WSDefaultService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSDefaultService.h; sourceTree = "<group>"; };
+		5400090B2182BAC700BD75A3 /* WSDefaultService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSDefaultService.m; sourceTree = "<group>"; };
+		5400090D2182BC4800BD75A3 /* WSTestDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSTestDataManager.h; sourceTree = "<group>"; };
+		5400090E2182BC4800BD75A3 /* WSTestDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSTestDataManager.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WSNetwork_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSNetwork_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,8 +70,8 @@
 		85B2FDF8DAD73D6D687FE6FF /* Pods-WSNetwork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSNetwork_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WSNetwork_Tests/Pods-WSNetwork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E499DF8CEA03F348A6B065D /* Pods_WSNetwork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WSNetwork_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD58AC584F5C984F1F185E5D /* WSNetwork.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WSNetwork.podspec; path = ../WSNetwork.podspec; sourceTree = "<group>"; };
-		C76CC2E4F612E6826E9C6E79 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BD58AC584F5C984F1F185E5D /* WSNetwork.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WSNetwork.podspec; path = ../WSNetwork.podspec; sourceTree = "<group>"; };
+		C76CC2E4F612E6826E9C6E79 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FE51BEDBDAC021041683348B /* Pods-WSNetwork_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSNetwork_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WSNetwork_Tests/Pods-WSNetwork_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,6 +143,10 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* WSViewController.h */,
 				6003F5A6195388D20070C39A /* WSViewController.m */,
+				5400090A2182BAC700BD75A3 /* WSDefaultService.h */,
+				5400090B2182BAC700BD75A3 /* WSDefaultService.m */,
+				5400090D2182BC4800BD75A3 /* WSTestDataManager.h */,
+				5400090E2182BC4800BD75A3 /* WSTestDataManager.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -248,6 +258,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = ws;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = C4H36Q7VQP;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -302,10 +315,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-WSNetwork_Example/Pods-WSNetwork_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/WSNetwork/WSNetwork.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WSNetwork.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,7 +396,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* WSAppDelegate.m in Sources */,
+				5400090C2182BAC700BD75A3 /* WSDefaultService.m in Sources */,
 				6003F5A7195388D20070C39A /* WSViewController.m in Sources */,
+				5400090F2182BC4800BD75A3 /* WSTestDataManager.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -510,6 +527,7 @@
 			baseConfigurationReference = 1340DCC097C412D6946FAC2C /* Pods-WSNetwork_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C4H36Q7VQP;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WSNetwork/WSNetwork-Prefix.pch";
 				INFOPLIST_FILE = "WSNetwork/WSNetwork-Info.plist";
@@ -525,6 +543,7 @@
 			baseConfigurationReference = 0C5297AC5FC1AE563B641DC4 /* Pods-WSNetwork_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C4H36Q7VQP;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WSNetwork/WSNetwork-Prefix.pch";
 				INFOPLIST_FILE = "WSNetwork/WSNetwork-Info.plist";
